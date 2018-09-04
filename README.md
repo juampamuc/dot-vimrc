@@ -1,6 +1,31 @@
 Maple's Vim config
 ==================
+## Installation
 
+1. Backup your old vim configuration files:
+
+        mv ~/.vim ~/.vim.orig
+        mv ~/.vimrc ~/.vimrc.orig
+
+2. Clone and install this repo:
+
+        git clone git://github.com/jason718/dot-vimrc.git ~/.vim
+        ln -s ~/.vim/vimrc ~/.vimrc
+
+3. Setup `Vundle`:
+
+        git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+4. Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
+
+        :BundleInstall
+
+Thst's it!
+
+For installation on Windows, please refer to this post: http://blog.yoxyue.com/post/gvim-on-win7 (Thanks to [yoxyue](https://github.com/yoxyue))
+
+
+## Intro
 I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. If you are new to vim, the following two posts
 
 * [Vim Introduction and Tutorial](http://blog.interlinked.org/tutorials/vim_tutorial.html)
@@ -213,29 +238,6 @@ Clone in Mac
    * PHP - Use soft-tabs with a two space indent(According to [Apache PHP Style Guide](http://svn.apache.org/repos/asf/shindig/trunk/php/docs/style-guide.html)).
    * Python - Use soft-tabs with a four space indent([PEP8](http://www.python.org/dev/peps/pep-0008/)).
 
-## Installation
-
-1. Backup your old vim configuration files:
-
-        mv ~/.vim ~/.vim.orig
-        mv ~/.vimrc ~/.vimrc.orig
-
-2. Clone and install this repo:
-
-        git clone git://github.com/humiaozuzu/dot-vimrc.git ~/.vim
-        ln -s ~/.vim/vimrc ~/.vimrc
-
-3. Setup `Vundle`:
-
-        git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-
-4. Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
-
-        :BundleInstall
-
-Thst's it!
-
-For installation on Windows, please refer to this post: http://blog.yoxyue.com/post/gvim-on-win7 (Thanks to [yoxyue](https://github.com/yoxyue))
 
 ## How to manage this vimrc?
 
