@@ -1,4 +1,4 @@
-Maple's Vim config
+Borrowed from Maple's Vim config
 ==================
 ## Installation
 
